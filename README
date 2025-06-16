@@ -1,3 +1,22 @@
+Run clickshare software in a docker container
+
+Clone this git repo
+go to this directory
+
+run like so:
+
+bash run.sh
+
+then inside the container run:
+
+./app/bin-amd64/clickshare
+
+Current problem:
+
+System tray shows, small window under it shows as well. The app says it's waiting for the button. I don't know why or how to fix it.
+
+
+
 https://bugs.debian.org/820587
 
 Package: wnpp
